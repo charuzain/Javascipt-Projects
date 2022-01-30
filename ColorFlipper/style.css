@@ -1,0 +1,28 @@
+
+
+.nav-center{
+ 
+  display:flex;
+ justify-content: space-around;
+ height: 100px;
+ background-color: cornflowerblue;
+}
+
+.nav-links{
+   display:grid
+  
+}
+li{
+    text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+.main-container{
+margin-top: 100px;
+padding-left: 500px;
+padding-top :100px;
+background-color: grey;
+}
+
+
