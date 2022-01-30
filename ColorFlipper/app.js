@@ -1,5 +1,14 @@
 /* eslint-disable no-undef */
-const colors = ["red", "blue", "green", "purple", "yellow", "pink","orange","violet"];
+const colors = [
+  "red",
+  "blue",
+  "green",
+  "purple",
+  "yellow",
+  "pink",
+  "orange",
+  "violet",
+];
 
 const button = document.querySelector(".btn");
 console.log(button);
@@ -17,3 +26,4 @@ const getRandomNumber = () => {
   const number = Math.floor(Math.random() * colors.length);
   return number;
 };
+
