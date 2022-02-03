@@ -10,7 +10,23 @@ buttons.forEach(btn =>{
     const style = e.currentTarget.classList;
     if (style.contains('increase')) {
       count ++;
-      value.innerText = count;
+      // value.innerText = count;
+    } else if (style.contains('decrease')) {
+      count --;
+      // value.innerText = count;
+    } else {
+      count = 0;
+      // value.textContent = count;
     }
+    value.textContent = count;
+    if (count > 0) {
+      console.log("hi");
+      value.style.color = "green";
+    }
+    else{
+            value.style.color = "red";
+
+    }
+
   });
 });
